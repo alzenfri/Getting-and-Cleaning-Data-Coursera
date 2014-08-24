@@ -7,7 +7,7 @@ Raw data collection
 ### Collection
 
 Raw data are obtained from UCI Machine Learning repository. In particular we used
-the *Human Activity Recognition Using Smartphones Data Set* [[1](#uci-har)],
+the *Human Activity Recognition Using Smartphones Data Set*,
 that was used by the original collectors to conduct experiments exploiting
 Support Vector Machine (SVM).
 
