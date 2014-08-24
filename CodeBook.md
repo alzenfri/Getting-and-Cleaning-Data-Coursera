@@ -9,11 +9,11 @@ Raw data collection
 Raw data are obtained from UCI Machine Learning repository. In particular we used
 the *Human Activity Recognition Using Smartphones Data Set* [[1](#uci-har)],
 that was used by the original collectors to conduct experiments exploiting
-Support Vector Machine (SVM) [[2](#har-smart)].
+Support Vector Machine (SVM).
 
 Activity Recognition (AR) aims to recognize the actions and goals of one or more agents
-from a series of observations on the agents' actions and the environmental conditions
-[[3](#activity-recognition)]. The collectors used a sensor based approach employing
+from a series of observations on the agents' actions and the environmental conditions. 
+The collectors used a sensor based approach employing
 smartphones as sensing tools. Smartphones are an effective solution for AR, because
 they come with embedded built-in sensors such as microphones, dual cameras, accelerometers,
 gyroscopes, etc.
@@ -24,23 +24,23 @@ within an age bracket of 19-48 years. Each person performed six activities
 wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded
 accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity
 were captured at a constant rate of 50Hz. The experiments have been video-recorded
-to label the data manually [[4](#har-smart2)].
+to label the data manually.
 
 The obtained data set has been randomly partitioned into two sets, where 70% of
 the volunteers was selected for generating the training data and 30% the test data.
 
 ### Signals
 
-The 3-axial time domain [[5](#time-domain)] signals from accelerometer and gyroscope
-were captured at a constant rate of 50 Hz [[6](#hertz)]. Then they were filtered
+The 3-axial time domain signals from accelerometer and gyroscope
+were captured at a constant rate of 50 Hz. Then they were filtered
 to remove noise.
 Similarly, the acceleration signal was then separated into body and gravity
 acceleration signals using another filter.
 Subsequently, the body linear acceleration and angular velocity were derived in time
-to obtain Jerk signals [[7](#jerk)]. Also the magnitude [[8](#magnitude)] of these
-three-dimensional signals were calculated using the Euclidean norm [[9](#euclidean-norm)]. 
-Finally a Fast Fourier Transform (FFT) [[10](#fft)] was applied to some of these
-time domain signals to obtain frequency domain [[11](#freq-domain)] signals.
+to obtain Jerk signals. Also the magnitude of these
+three-dimensional signals were calculated using the Euclidean norm. 
+Finally a Fast Fourier Transform (FFT) was applied to some of these
+time domain signals to obtain frequency domain signals.
 
 The signals were sampled in fixed-width sliding windows of 2.56 sec and 50% 
 overlap (128 readings/window at 50 Hz).
